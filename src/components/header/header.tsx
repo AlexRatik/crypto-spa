@@ -1,9 +1,10 @@
 import React from "react";
 import CurrencyTableau from "../currencyTableau/currencyTableau";
+import "./header.scss";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <CurrencyTableau />
     </div>
   );

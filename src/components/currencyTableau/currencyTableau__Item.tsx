@@ -1,4 +1,5 @@
 import React from "react";
+import "./currencyTableau__Item.scss";
 
 interface ICurrencyTableauItemProps {
   price: number;
@@ -6,13 +7,13 @@ interface ICurrencyTableauItemProps {
   symbol: string;
 }
 
-const CurrencyTableauItem = ({
+const CurrencyTableau__Item = ({
   price,
   name,
   symbol,
 }: ICurrencyTableauItemProps) => {
   return (
-    <div>
+    <div className="currencyTableau__Item">
       <span>
         {name}({symbol}) : {price.toFixed(2)}$
       </span>
@@ -20,4 +21,4 @@ const CurrencyTableauItem = ({
   );
 };
 
-export default CurrencyTableauItem;
+export default CurrencyTableau__Item;
