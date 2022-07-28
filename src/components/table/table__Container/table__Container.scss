@@ -1,0 +1,18 @@
+.table__Container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  position: relative;
+  .button {
+    position: absolute;
+    width: 40px;
+    color: black;
+    right: -50px;
+    box-shadow: 0 0 5px 1px teal;
+    padding: 8px;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
