@@ -1,0 +1,20 @@
+.portfolioValue {
+  color: #ffffff;
+  border: 1px solid pink;
+  border-radius: 20px 0 20px 0;
+  padding: 10px;
+  box-shadow: 0 0 10px 4px pink;
+  transition: all .35s ease-out;
+  &:hover {
+    cursor: default;
+    transform: scale(1.1);
+    box-shadow: none;
+
+  }
+  &.added{
+    box-shadow: 0 0 10px 6px rgba(255,60,58,0.77);
+  }
+  &.reduced{
+    box-shadow: 0 0 10px 4px lightgreen;
+  }
+}
