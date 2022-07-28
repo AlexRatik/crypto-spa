@@ -1,24 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { useAppSelector } from "../../hooks/hooks";
 import { TableColumnsEnum } from "./tableColumnsEnum";
 import "./table.scss";
 import Table__Container from "./table__Container/table__Container";
-import { usePagination } from "../../hooks/usePagination";
+import { ICoin } from "../../features/cryptoCoins/ICoin";
 
 const Table = () => {
   const cryptoCoins = useAppSelector((store) => store.cryptoCoins.coins);
-
-  const { totalCount, currentPage, limit, siblingCount } = useAppSelector(
-    (store) => store.pagination
+  const { currentPage, limit } = useAppSelector((store) => store.pagination);
+  let [visibleCryptoCoins, setVisibleCoins] = useState<ICoin[]>(
+    cryptoCoins.slice((currentPage - 1) * limit, currentPage * limit)
   );
-
-  const paginationRange: (number | string)[] | undefined = usePagination({
-    siblingCount,
-    currentPage,
-    limit,
-    total: totalCount,
-  });
+  useEffect(() => {
+    console.log(currentPage, limit);
+    setVisibleCoins(
+      cryptoCoins.slice((currentPage - 1) * limit, currentPage * limit)
+    );
+  }, [currentPage]);
+  console.log(visibleCryptoCoins);
   return (
     <div className="table">
       <Table__Container
@@ -28,19 +28,15 @@ const Table = () => {
         rank={TableColumnsEnum.RANK}
         key={uuidv4()}
       />
-      {cryptoCoins.map((coin, index) => {
-        if (paginationRange?.includes(index + 1)) {
-          return (
-            <Table__Container
-              key={uuidv4()}
-              name={coin.name}
-              price={+coin.priceUsd}
-              symbol={coin.symbol}
-              rank={coin.rank}
-            />
-          );
-        }
-      })}
+      {visibleCryptoCoins.map((coin) => (
+        <Table__Container
+          key={uuidv4()}
+          name={coin.name}
+          price={+coin.priceUsd}
+          symbol={coin.symbol}
+          rank={coin.rank}
+        />
+      ))}
     </div>
   );
 };
