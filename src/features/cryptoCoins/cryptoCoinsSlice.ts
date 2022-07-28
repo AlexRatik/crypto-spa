@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ICoin } from "./ICoin";
 import { fetchCoins } from "./fetchCoins";
 import { getPopularCoins } from "./getPopularCoins";
+import { setTotalCount } from "../pagination/paginationSlice";
 
 interface IInitialState {
   coins: ICoin[];
@@ -19,6 +20,7 @@ export const getCryptoCoins = createAsyncThunk(
     const data = await fetchCoins();
     dispatch(setCryptoCoins(data));
     dispatch(setPopularCryptoCoins(data));
+    dispatch(setTotalCount(data.length));
   }
 );
 
