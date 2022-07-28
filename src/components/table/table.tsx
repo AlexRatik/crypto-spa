@@ -1,15 +1,15 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
 import { useAppSelector } from "../../hooks/hooks";
-import Table__Item from "./table__Item/table__Item";
 import { TableColumnsEnum } from "./tableColumnsEnum";
 import "./table.scss";
+import Table__Container from "./table__Container/table__Container";
 
 const Table = () => {
   const cryptoCoins = useAppSelector((store) => store.cryptoCoins.coins);
   return (
     <div className="table">
-      <Table__Item
+      <Table__Container
         name={TableColumnsEnum.NAME}
         price={TableColumnsEnum.PRICE_USD}
         symbol={TableColumnsEnum.SYMBOL}
@@ -17,7 +17,7 @@ const Table = () => {
         key={uuidv4()}
       />
       {cryptoCoins.map((coin) => (
-        <Table__Item
+        <Table__Container
           key={uuidv4()}
           name={coin.name}
           price={+coin.priceUsd}
