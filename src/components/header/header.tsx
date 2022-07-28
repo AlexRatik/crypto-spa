@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="header">
       <CurrencyTableau />
-      <Button text={"Profile"} clickHandler={() => {}} />
+      <Button text={"Portfolio"} clickHandler={() => {}} />
     </div>
   );
 };
