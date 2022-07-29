@@ -7,11 +7,15 @@ import Table from "./components/table/table";
 import Pagination from "./components/pagination/pagination";
 import Overlay from "./components/overlay/overlay";
 import { getPortfolioCoins } from "./features/portfolio/portfolioSlice";
+import Portfolio from "./components/portfolio/portfolio";
 
 function App() {
   const dispatch = useAppDispatch();
   const showOverlay = useAppSelector(
     (store) => store.modalForBuyCoins.showModal
+  );
+  const showPortfolio = useAppSelector(
+    (store) => store.portfolioReducer.isShowPortfolio
   );
   useEffect(() => {
     dispatch(getCryptoCoins());
@@ -23,7 +27,8 @@ function App() {
       <Header />
       <Table />
       <Pagination />
-      {showOverlay && <Overlay />}
+      {showPortfolio && <Portfolio />}
+      {(showOverlay || showPortfolio) && <Overlay />}
     </div>
   );
 }
