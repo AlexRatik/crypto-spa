@@ -8,6 +8,7 @@ interface ITable__ContainerProps {
   symbol: string;
   price: number | string;
   rank: string;
+  onButtonClick?: () => void;
 }
 
 const Table__Container = ({
@@ -15,12 +16,17 @@ const Table__Container = ({
   symbol,
   rank,
   price,
+  onButtonClick,
 }: ITable__ContainerProps) => {
   return (
     <div className="table__Container">
       <Table__Item name={name} symbol={symbol} price={price} rank={rank} />
       {typeof price === "number" && (
-        <Button text={"+"} clickHandler={() => {}} />
+        <Button
+          text={"+"}
+          clickHandler={onButtonClick || (() => {})}
+          className={"table--button"}
+        />
       )}
     </div>
   );
