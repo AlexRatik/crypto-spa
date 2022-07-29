@@ -4,6 +4,12 @@
   align-items: center;
   margin-bottom: 7px;
   position: relative;
+  &:hover {
+      cursor: pointer;
+    &:first-child{
+      cursor: default;
+    }
+  }
   .button {
     position: absolute;
     width: 40px;

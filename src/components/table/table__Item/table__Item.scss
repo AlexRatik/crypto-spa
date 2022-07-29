@@ -4,6 +4,15 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 7px;
+  transition: all .25s ease-out;
+  z-index: 1;
+  &:hover {
+    transform: scale(1.1);
+    //cursor: pointer;
+    .table__Item__Text {
+      border-color: pink;
+    }
+  }
 }
 
 .table__Item__Text {
@@ -15,10 +24,7 @@
   font-size: 18px;
   transition: all .15s ease-out;
   background-color: #ffffff;
-  &:hover {
-    transform: scale(1.1);
-    border-color: pink;
-  }
+
   &:last-child {
     border-radius: 0 20px 20px 0;
   }
