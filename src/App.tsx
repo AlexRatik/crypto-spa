@@ -2,21 +2,13 @@ import React, { useEffect } from "react";
 import "./App.scss";
 import Header from "./components/header/header";
 import { getCryptoCoins } from "./features/cryptoCoins/cryptoCoinsSlice";
-import { useAppDispatch, useAppSelector } from "./hooks/hooks";
-import Table from "./components/table/table";
-import Pagination from "./components/pagination/pagination";
-import Overlay from "./components/overlay/overlay";
+import { useAppDispatch } from "./hooks/hooks";
 import { getPortfolioCoins } from "./features/portfolio/portfolioSlice";
-import Portfolio from "./components/portfolio/portfolio";
+import Router from "./router/router";
 
 function App() {
   const dispatch = useAppDispatch();
-  const showOverlay = useAppSelector(
-    (store) => store.modalForBuyCoins.showModal
-  );
-  const showPortfolio = useAppSelector(
-    (store) => store.portfolioReducer.isShowPortfolio
-  );
+
   useEffect(() => {
     dispatch(getCryptoCoins());
     dispatch(getPortfolioCoins());
@@ -25,10 +17,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Table />
-      <Pagination />
-      {showPortfolio && <Portfolio />}
-      {(showOverlay || showPortfolio) && <Overlay />}
+      <Router />
     </div>
   );
 }
