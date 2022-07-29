@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17db0899-b407-42dc-808e-c50bcc983059" name="Changes" comment="fix table.tsx">
+      <change afterPath="$PROJECT_DIR$/crypto-spa/static/css/main.a9e9cbb7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto-spa/static/css/main.a9e9cbb7.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto-spa/static/js/main.dbe74588.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto-spa/static/js/main.dbe74588.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto-spa/static/js/main.dbe74588.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-spa/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-spa/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-spa/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-spa/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-spa/static/css/main.63e34a42.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-spa/static/css/main.63e34a42.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-spa/static/js/main.132a0023.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-spa/static/js/main.132a0023.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-spa/static/js/main.132a0023.js.map" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="SCSS File" />
+        <option value="Sass File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CZQ3kvYty30tdT9CZfGe17y23i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/NodejsCourse/nodejs2022Q2-service/node_modules/prettier" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\KrovSoSpeedom\NodejsCourse\nodejs2022Q2-service\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KrovSoSpeedom\Work\crypto-spa" />
+      <recent name="C:\Users\KrovSoSpeedom\Work\crypto-spa\crypto-spa" />
+      <recent name="C:\Users\KrovSoSpeedom\Work\crypto-spa\" />
+      <recent name="C:\Users\KrovSoSpeedom\Work\crypto-spa\src\components\table" />
+      <recent name="C:\Users\KrovSoSpeedom\Work\crypto-spa\src\hooks" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/crypto-spa/crypto-spa/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17db0899-b407-42dc-808e-c50bcc983059" name="Changes" comment="" />
+      <created>1659007431066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659007431066</updated>
+      <workItem from="1659007432791" duration="9584000" />
+      <workItem from="1659017582147" duration="15597000" />
+      <workItem from="1659034157961" duration="366000" />
+      <workItem from="1659075953347" duration="705000" />
+      <workItem from="1659126900572" duration="14000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix .gitignore">
+      <created>1659017606164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017606164</updated>
+    </task>
+    <task id="LOCAL-00002" summary="delete useless files">
+      <created>1659017662915</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017662916</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create currencyTableau">
+      <created>1659017783194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017783195</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create cryptoCoinsSlice">
+      <created>1659017826141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017826141</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create ICoin interface">
+      <created>1659017835455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017835456</updated>
+    </task>
+    <task id="LOCAL-00006" summary="moved store and hooks">
+      <created>1659017881799</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017881799</updated>
+    </task>
+    <task id="LOCAL-00007" summary="install sass sass-loader uuid axios">
+      <created>1659017913555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017913555</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix index.html">
+      <created>1659017923918</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017923918</updated>
+    </task>
+    <task id="LOCAL-00009" summary="rename css to scss and add zeroing styles">
+      <created>1659017980418</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017980418</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix index.tsx">
+      <created>1659017996229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017996229</updated>
+    </task>
+    <task id="LOCAL-00011" summary="create button">
+      <created>1659021264268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659021264268</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix currencyTableau and its elems styles">
+      <created>1659021313003</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659021313003</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add Profile button">
+      <created>1659021325496</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659021325496</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix header.scss">
+      <created>1659021334816</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659021334816</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add portfolioValue">
+      <created>1659022188291</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659022188291</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add portfolioValue in header">
+      <created>1659022200586</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659022200586</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix button.scss">
+      <created>1659022214522</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659022214522</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix currencyTableau.scss">
+      <created>1659022222743</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659022222743</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add table to app.tsx">
+      <created>1659024090016</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659024090016</updated>
+    </task>
+    <task id="LOCAL-00020" summary="create table">
+      <created>1659025436871</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659025436871</updated>
+    </task>
+    <task id="LOCAL-00021" summary="create table__Item">
+      <created>1659025445928</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659025445928</updated>
+    </task>
+    <task id="LOCAL-00022" summary="create table enum">
+      <created>1659025453888</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659025453888</updated>
+    </task>
+    <task id="LOCAL-00023" summary="create table__Container">
+      <created>1659027419970</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659027419970</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix table.tsx">
+      <created>1659027430734</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659027430734</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix table__Item.scss">
+      <created>1659027443952</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659027443952</updated>
+    </task>
+    <task id="LOCAL-00026" summary="create pagination">
+      <created>1659032848821</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659032848821</updated>
+    </task>
+    <task id="LOCAL-00027" summary="create paginationSlice">
+      <created>1659033023127</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659033023127</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix cryptoCoinsSlice">
+      <created>1659033046641</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1659033046641</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add reducer to store">
+      <created>1659033054917</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1659033054917</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix table">
+      <created>1659033081751</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1659033081751</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add pagination to App.tsx">
+      <created>1659033094755</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1659033094755</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix table.tsx">
+      <created>1659033587596</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1659033587596</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix index.html" />
+    <MESSAGE value="rename css to scss and add zeroing styles" />
+    <MESSAGE value="fix index.tsx" />
+    <MESSAGE value="create button" />
+    <MESSAGE value="fix currencyTableau and its elems styles" />
+    <MESSAGE value="add Profile button" />
+    <MESSAGE value="fix header.scss" />
+    <MESSAGE value="add portfolioValue" />
+    <MESSAGE value="add portfolioValue in header" />
+    <MESSAGE value="fix button.scss" />
+    <MESSAGE value="fix currencyTableau.scss" />
+    <MESSAGE value="add table to app.tsx" />
+    <MESSAGE value="create table" />
+    <MESSAGE value="create table__Item" />
+    <MESSAGE value="create table enum" />
+    <MESSAGE value="create table__Container" />
+    <MESSAGE value="fix table__Item.scss" />
+    <MESSAGE value="create pagination" />
+    <MESSAGE value="create usePagination hook" />
+    <MESSAGE value="create paginationSlice" />
+    <MESSAGE value="fix cryptoCoinsSlice" />
+    <MESSAGE value="add reducer to store" />
+    <MESSAGE value="fix table" />
+    <MESSAGE value="add pagination to App.tsx" />
+    <MESSAGE value="fix table.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix table.tsx" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
