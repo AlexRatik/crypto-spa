@@ -9,7 +9,7 @@ const Header = () => {
     <div className="header">
       <CurrencyTableau />
       <PortfolioValue />
-      <Button text={"Portfolio"} clickHandler={() => {}} />
+      <Button text={"Portfolio"} clickHandler={() => {}} className={""} />
     </div>
   );
 };
