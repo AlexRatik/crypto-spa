@@ -1,4 +1,6 @@
-.table__Item {
+.table--link {
+  color: #000000;
+  text-decoration: none;
   width: 100%;
   display: flex;
   align-items: center;
@@ -8,10 +10,15 @@
   z-index: 1;
   &:hover {
     transform: scale(1.1);
-    //cursor: pointer;
     .table__Item__Text {
       border-color: pink;
     }
+  }
+}
+
+.table--header {
+  &:hover {
+    cursor: default;
   }
 }
 
