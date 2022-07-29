@@ -1,0 +1,23 @@
+.portfolio--item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+
+  border-radius: 0 20px 0 20px;
+  border:1px solid lightgray;
+  p {
+    width: 33.3%;
+  }
+}
+
+.portfolio--button {
+  font-size: 20px;
+  width: 50px;
+  color: black;
+  background-color: #ffffff;
+  box-shadow: -5px 5px 10px 3px teal;
+  &:hover {
+    box-shadow: -5px 5px 10px 3px pink;
+  }
+}
