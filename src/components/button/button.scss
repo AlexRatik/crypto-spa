@@ -1,0 +1,24 @@
+.button {
+  width: 130px;
+  padding: 10px;
+  outline: none;
+  border-radius: 0 20px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid pink;
+  font-size: 16px;
+  transition: all .35s ease-out;
+  box-shadow: -5px 5px 10px 3px pink;
+  margin: 0 auto;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: none;
+  }
+  &:disabled {
+    box-shadow: none;
+    opacity: 0.7;
+    border-color: teal;
+    pointer-events: none;
+  }
+}

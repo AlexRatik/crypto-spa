@@ -1,0 +1,47 @@
+.modalForBuyCoins {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 50%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  padding: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: white;
+  border: 1px solid teal;
+  border-radius: 20px 0 20px 0;
+}
+
+.modalForBuyCoins__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalForBuyCoins--item-container {
+  position: relative;
+}
+
+.modalForBuyCoins--item {
+  margin: 10px 0;
+}
+
+.modalForBuyCoins__input {
+  padding: 5px;
+  outline: none;
+  border: 1px solid teal;
+  font-size: 16px;
+  border-radius:  0 10px 0 10px ;
+  &:focus {
+    border-color: pink;
+  }
+}
+
+.modalForBuyCoins--button {
+  color: black;
+  width: 100px;
+}

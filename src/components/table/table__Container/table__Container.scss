@@ -1,0 +1,11 @@
+.table__Container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  position: relative;
+  &:hover {
+      cursor: pointer;
+  }
+}
+
