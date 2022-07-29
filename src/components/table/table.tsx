@@ -13,12 +13,10 @@ const Table = () => {
     cryptoCoins.slice((currentPage - 1) * limit, currentPage * limit)
   );
   useEffect(() => {
-    console.log(currentPage, limit);
     setVisibleCoins(
       cryptoCoins.slice((currentPage - 1) * limit, currentPage * limit)
     );
-  }, [currentPage]);
-  console.log(visibleCryptoCoins);
+  }, [currentPage, cryptoCoins]);
   return (
     <div className="table">
       <Table__Container
