@@ -38,11 +38,13 @@ const Table = () => {
         price={TableColumnsEnum.PRICE_USD}
         symbol={TableColumnsEnum.SYMBOL}
         rank={TableColumnsEnum.RANK}
+        id={""}
         key={uuidv4()}
       />
       {visibleCryptoCoins.map((coin) => (
         <Table__Container
           key={uuidv4()}
+          id={coin.id}
           name={coin.name}
           price={+coin.priceUsd}
           symbol={coin.symbol}
