@@ -3,7 +3,7 @@ import { ICoin } from "./ICoin";
 
 const COINCAP_API_URL = "https://api.coincap.io/v2/assets";
 
-const COINCAP_API = axios.create({
+export const COINCAP_API = axios.create({
   baseURL: COINCAP_API_URL,
 });
 
