@@ -1,0 +1,11 @@
+.button-add {
+    position: absolute;
+    width: 40px;
+    color: black;
+    right: -50px;
+    box-shadow: 0 0 5px 1px teal;
+    padding: 8px;
+    &:hover {
+      box-shadow: none;
+    }
+}
